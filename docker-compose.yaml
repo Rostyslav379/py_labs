@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+ app:
+   restart: always
+   build:
+     context: .
+     dockerfile: Dockerfile
+   environment:
+     PORT: "5001"
+   ports:
+     - "8080:5001"
