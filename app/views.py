@@ -6,6 +6,9 @@ from flask import Flask, request
 app = Flask(__name__)
 
 USERS_DATA_FILE = "app/users.json"
+CATEGORIES_DATA_FILE = "app/categories.json"
+
+
 def load_data(data_filepath):
     try:
         with open(data_filepath, "r") as file:
@@ -18,6 +21,7 @@ def save_data(data, data_filepath):
         json.dump(data, file, indent=4)
 
 users = load_data(USERS_DATA_FILE)
+categories = load_data(CATEGORIES_DATA_FILE)
 @app.route("/healthcheck")
 def healthcheck():
     return "<p>healthcheck</p>"
@@ -53,3 +57,25 @@ def delete_user_by_id(user_id: str):
             return json.encoder.encode_basestring(element["id"])
 
 
+
+# // category
+
+@app.post("/category")
+def create_category():
+    category_data = request.get_json()
+    category_id = uuid.uuid4().hex
+    category = {"id": category_id, **category_data}
+    categories.append(category)
+    save_data(categories, CATEGORIES_DATA_FILE)
+    return category
+@app.get("/category")
+def get_category():
+    return list(categories)
+
+@app.delete("/category/<category_id>")
+def delete_category_by_id(category_id: str):
+     for element in list(categories):
+         if element["id"] == category_id:
+            categories.remove(element)
+            save_data(categories,CATEGORIES_DATA_FILE)
+            return json.encoder.encode_basestring(element["id"])
