@@ -1,0 +1,44 @@
+[
+    {
+        "id": "e0b25f64102e4eb1ab0f0868a737a5cd",
+        "user_id": "e0b25f64102e4eb1ab0f0868a737a5cd",
+        "category_id": "1a886ed3443948268aba4b474d1b02f3",
+        "createdDate": "2001-03-10 17:16:18",
+        "amount_sum": "10"
+    },
+    {
+        "id": "e0b25f64102e4eb1ab0f0868a737a5cf",
+        "user_id": "e0b25f64102e4eb1ab0f0868a737a5cd",
+        "category_id": "1a886ed3443948268aba4b474d1b02f3",
+        "createdDate": "2001-03-10 17:16:19",
+        "amount_sum": "10"
+    },
+    {
+        "id": "7ca88566626748108b02d631c090afd5",
+        "user_id": "e0b25f64102e4eb1ab0f0868a737a5cd",
+        "category_id": "d75aa600e67a4121b0d5e0343ec1d367",
+        "created_date": "2001-03-10 17:16:19",
+        "amount_sum": "7000"
+    },
+    {
+        "id": "289454ab2da64285a36e798c4b49f2c8",
+        "user_id": "e0b25f64102e4eb1ab0f0868a737a5cd",
+        "category_id": "1a886ed3443948268aba4b474d1b02f3",
+        "created_date": "2001-03-10 17:16:19",
+        "amount_sum": "7000"
+    },
+    {
+        "id": "876ddeb6a9334af0834d3b8ff413a072",
+        "user_id": "",
+        "category_id": "1a886ed3443948268aba4b474d1b02f3",
+        "created_date": "2001-03-10 17:16:19",
+        "amount_sum": "7000"
+    },
+    {
+        "id": "ded7b273de68406499ad853659763f24",
+        "user_id": "216508123d1c44f685a2f570ee47de55",
+        "category_id": "d75aa600e67a4121b0d5e0343ec1d367",
+        "created_date": "2001-03-10 17:16:19",
+        "amount_sum": "7000"
+    }
+]
