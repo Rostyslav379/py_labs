@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="35accd7b-2262-4d0d-a50b-265d3640a0f2" name="Changes" comment=" add readme" />
+    <list default="true" id="35accd7b-2262-4d0d-a50b-265d3640a0f2" name="Changes" comment=" category crd">
+      <change afterPath="$PROJECT_DIR$/app/records.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/views.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,23 +23,28 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Rostyslav379"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Rostyslav379&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Rostyslav379/py_labs.git",
-    "accountId": "2c854a69-22c7-479b-b3f4-1664f00a34ea"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Rostyslav379/py_labs.git&quot;,
+    &quot;accountId&quot;: &quot;2c854a69-22c7-479b-b3f4-1664f00a34ea&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2quBx1atiVozirsP4zRcI1OE7vB" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -50,8 +59,8 @@
     "Flask server.Flask (app/__init__.py).executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/karpenko.rostyslav/PycharmProjects/FlaskProject",
+    "git-widget-placeholder": "lab2",
+    "last_opened_file_path": "/Users/karpenko.rostyslav/PycharmProjects/FlaskProject/app",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -62,6 +71,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/docker" />
     </key>
@@ -78,7 +88,7 @@
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -111,11 +121,15 @@
       <method v="2" />
     </configuration>
     <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
-      <deployment type="docker-compose.yml" />
+      <deployment type="docker-compose.yml">
+        <settings />
+      </deployment>
       <method v="2" />
     </configuration>
     <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
-      <deployment type="dockerfile" />
+      <deployment type="dockerfile">
+        <settings />
+      </deployment>
       <method v="2" />
     </configuration>
     <configuration name="docker-compose.yaml.app: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
@@ -165,7 +179,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1735502822706</updated>
-      <workItem from="1735502823722" duration="7285000" />
+      <workItem from="1735502823722" duration="18135000" />
     </task>
     <task id="LOCAL-00001" summary="setting app">
       <option name="closed" value="true" />
@@ -191,7 +205,55 @@
       <option name="project" value="LOCAL" />
       <updated>1735509475618</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary=" update readme">
+      <option name="closed" value="true" />
+      <created>1735510687649</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1735510687649</updated>
+    </task>
+    <task id="LOCAL-00005" summary=" category start data">
+      <option name="closed" value="true" />
+      <created>1735518410900</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1735518410900</updated>
+    </task>
+    <task id="LOCAL-00006" summary=" user start data">
+      <option name="closed" value="true" />
+      <created>1735518416751</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1735518416751</updated>
+    </task>
+    <task id="LOCAL-00007" summary=" json-file load/save operation">
+      <option name="closed" value="true" />
+      <created>1735518654355</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1735518654355</updated>
+    </task>
+    <task id="LOCAL-00008" summary=" user crud">
+      <option name="closed" value="true" />
+      <created>1735518746904</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1735518746904</updated>
+    </task>
+    <task id="LOCAL-00009" summary=" category crud">
+      <option name="closed" value="true" />
+      <created>1735518765083</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1735518765083</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,7 +264,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="lab2" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -212,7 +286,15 @@
     <MESSAGE value="setting app" />
     <MESSAGE value=" add docker" />
     <MESSAGE value=" add readme" />
-    <option name="LAST_COMMIT_MESSAGE" value=" add readme" />
+    <MESSAGE value=" update readme" />
+    <MESSAGE value=" category start data" />
+    <MESSAGE value=" user start data" />
+    <MESSAGE value=" json-file load/save operation" />
+    <MESSAGE value=" user crd" />
+    <MESSAGE value=" category crd" />
+    <MESSAGE value=" user crd" />
+    <MESSAGE value=" category crd" />
+    <option name="LAST_COMMIT_MESSAGE" value=" category crd" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/FlaskProject$Flask__app___init___py_.coverage" NAME="Flask (app/__init__.py) Coverage Results" MODIFIED="1735505257839" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
