@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="35accd7b-2262-4d0d-a50b-265d3640a0f2" name="Changes" comment="update app" />
+    <list default="true" id="35accd7b-2262-4d0d-a50b-265d3640a0f2" name="Changes" comment="updates">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -208,7 +211,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1735502822706</updated>
-      <workItem from="1735502823722" duration="30944000" />
+      <workItem from="1735502823722" duration="31587000" />
     </task>
     <task id="LOCAL-00001" summary="setting app">
       <option name="closed" value="true" />
@@ -322,7 +325,23 @@
       <option name="project" value="LOCAL" />
       <updated>1735778851337</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="updates">
+      <option name="closed" value="true" />
+      <created>1735778961926</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1735778961926</updated>
+    </task>
+    <task id="LOCAL-00016" summary="updates">
+      <option name="closed" value="true" />
+      <created>1735779176872</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1735779176872</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -368,17 +387,8 @@
     <MESSAGE value=" update docker" />
     <MESSAGE value="create db entities and schemas" />
     <MESSAGE value="update app" />
-    <option name="LAST_COMMIT_MESSAGE" value="update app" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/app/models.py</url>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="updates" />
+    <option name="LAST_COMMIT_MESSAGE" value="updates" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/FlaskProject$df6fd0353f2f_initial_migration.coverage" NAME="df6fd0353f2f_initial_migration Coverage Results" MODIFIED="1735777357018" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/migrations/versions" />

@@ -68,5 +68,8 @@ def get_records():
     schema = RecordSchema(many=True)
     return schema.dump(records)
 
+@api.route("/healthcheck", methods=["GET"])
+def healthcheck():
+    return "OK"
 def register_routes(app):
     app.register_blueprint(api)
