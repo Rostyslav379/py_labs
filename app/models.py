@@ -6,6 +6,7 @@ class User(db.Model):
     __tablename__ = 'users'
     id = db.Column(db.String(36), primary_key=True)
     name = db.Column(db.String(100), nullable=False)
+    password = db.Column(db.String(128), nullable=False)  # Для хранения хэша пароля
     default_currency_id = db.Column(db.String(36), db.ForeignKey('currencies.id'), nullable=True)
 
     default_currency = relationship('Currency', back_populates='users')

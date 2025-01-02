@@ -11,7 +11,9 @@ class CurrencySchema(Schema):
 class UserSchema(Schema):
     id = fields.Str(dump_only=True)
     name = fields.Str(required=True)
+    password = fields.Str(required=True, load_only=True)
     default_currency_id = fields.Str()
+
 
     @validates("default_currency_id")
     def validate_currency(self, value):
