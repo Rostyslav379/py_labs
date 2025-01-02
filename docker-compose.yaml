@@ -10,3 +10,16 @@ services:
      PORT: "5001"
    ports:
      - "8080:5001"
+ db:
+   image: postgres:14
+   container_name: flask_app_db
+   environment:
+     POSTGRES_USER: postgres
+     POSTGRES_PASSWORD: postgres_password
+     POSTGRES_DB: flask_app
+   ports:
+     - "5432:5432"
+   volumes:
+     - postgres_data:/var/lib/postgresql/data
+volumes:
+     postgres_data:
