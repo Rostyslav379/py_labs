@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="35accd7b-2262-4d0d-a50b-265d3640a0f2" name="Changes" comment=" records crd">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/routes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/schemas.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-    </list>
+    <list default="true" id="35accd7b-2262-4d0d-a50b-265d3640a0f2" name="Changes" comment="update app" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -218,7 +208,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1735502822706</updated>
-      <workItem from="1735502823722" duration="30507000" />
+      <workItem from="1735502823722" duration="30944000" />
     </task>
     <task id="LOCAL-00001" summary="setting app">
       <option name="closed" value="true" />
@@ -308,7 +298,31 @@
       <option name="project" value="LOCAL" />
       <updated>1735522115139</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary=" update docker">
+      <option name="closed" value="true" />
+      <created>1735778749832</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1735778749832</updated>
+    </task>
+    <task id="LOCAL-00013" summary="create db entities and schemas">
+      <option name="closed" value="true" />
+      <created>1735778789922</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1735778789922</updated>
+    </task>
+    <task id="LOCAL-00014" summary="update app">
+      <option name="closed" value="true" />
+      <created>1735778851337</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1735778851337</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -351,7 +365,10 @@
     <MESSAGE value=" category crd" />
     <MESSAGE value=" records start data" />
     <MESSAGE value=" records crd" />
-    <option name="LAST_COMMIT_MESSAGE" value=" records crd" />
+    <MESSAGE value=" update docker" />
+    <MESSAGE value="create db entities and schemas" />
+    <MESSAGE value="update app" />
+    <option name="LAST_COMMIT_MESSAGE" value="update app" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
