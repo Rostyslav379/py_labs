@@ -14,16 +14,14 @@ def create_app():
     db.init_app(app)
     migrate.init_app(app, db)
 
-    from app.models import User, Category, Record, Currency  # Импорт моделей
-    from app.routes import register_routes  # Регистрация маршрутов
+    from app.models import User, Category, Record, Currency
+    from app.routes import register_routes
     register_routes(app)
 
-    # Обработка ошибок Marshmallow
     @app.errorhandler(ValidationError)
     def handle_validation_error(e):
         return jsonify({"error": str(e)}), 400
 
-    # Обработка других ошибок
     @app.errorhandler(400)
     def handle_bad_request(e):
         return jsonify({"error": "Bad request"}), 400
